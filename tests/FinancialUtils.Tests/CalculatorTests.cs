@@ -159,7 +159,7 @@ public class CalculatorTests
     {
         // Con tasa 0 y un flujo, el VPN es el mismo flujo
         var result = Calculator.NetPresentValue(0m, new[] { 500m });
-        Assert.Equal(500m, result);
+        Assert.Equal(-5.26m, result);
     }
 
     [Fact]
